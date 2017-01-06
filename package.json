@@ -29,6 +29,7 @@
     },
     "scripts": {
         "start": "node static.js",
-        "test": "node lib/ace/test/all.js"
+        "test": "node lib/ace/test/all.js",
+        "install": "node ./Makefile.dryice.js -m -nc"
     }
 }
