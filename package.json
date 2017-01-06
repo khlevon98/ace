@@ -30,6 +30,6 @@
     "scripts": {
         "start": "node static.js",
         "test": "node lib/ace/test/all.js",
-        "install": "cd ./ace && npm install && node ./Makefile.dryice.js -m -nc && cd ../"
+        "install": "cd ./node_modules/ace && npm install && node ./Makefile.dryice.js -m -nc"
     }
 }
