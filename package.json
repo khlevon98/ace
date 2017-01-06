@@ -10,7 +10,7 @@
         "type": "git",
          "url": "http://github.com/ajaxorg/ace.git"
     },
-    "devDependencies": {
+    "dependencies": {
         "asyncjs": "0.0.x",
         "jsdom": "9.3.0",
         "amd-loader": "~0.0.4",
@@ -30,6 +30,6 @@
     "scripts": {
         "start": "node static.js",
         "test": "node lib/ace/test/all.js",
-        "install": "npm install --dev && node Makefile.dryice.js -m -nc"
+        "install": "node Makefile.dryice.js -m -nc"
     }
 }
